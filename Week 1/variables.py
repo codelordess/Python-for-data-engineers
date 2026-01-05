@@ -33,3 +33,9 @@ print(course.find("Pro"))
 print(course.replace("p", "j"))
 print("pro" in course)
 print("swift" not in course)
+
+#Formatting Numbers
+
+x = 10
+x = x + 3
+x +=3
