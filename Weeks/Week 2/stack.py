@@ -10,3 +10,5 @@ print("Last visited site:", last)
 print(browsing_session)
 print("Number of sites visited:", len(browsing_session))
 print("redirecting to", browsing_session[-1])
+if not browsing_session:
+    print("Disable browsing session yet")
