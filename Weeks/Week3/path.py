@@ -14,4 +14,6 @@ path = path.with_name('text.txt')
 path = path.with_suffix('.txt')
 print(path)
 
-
+paths = [p for p in path.iterdir() if p.is_dir()]
+py_files = [p for p in path.glob("**/*.py")]
+print(py_files)
