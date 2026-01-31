@@ -1,9 +1,1 @@
-import csv
-
-with open('data.csv') as file:
-    csv_reader = csv.reader(file)
-    header = next(csv_reader)
-    print(f'Header: {header}')
-    
-    for row in csv_reader:
-        print(row)
+print("This module name shadows the standard library 'csv' module.\nRun 'read_csv_example.py' instead to read data.csv.")
